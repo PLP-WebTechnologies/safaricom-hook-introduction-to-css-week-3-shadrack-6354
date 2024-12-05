@@ -44,6 +44,90 @@
    - A paragraph with some description.  
    - Add padding inside the card and a margin around it.  
    - Use a light background color and a subtle border.  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling Example</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS */
+        h1, h2 {
+            font-size: 2em;
+        }
+
+        .section {
+            background-color: lightblue;
+            padding: 20px;
+        }
+
+        #uniqueElement {
+            border: 2px solid red;
+            padding: 15px;
+        }
+
+        /* Styling for colors, font styles, text alignment, and spacing */
+        body {
+            background-color: #fff3e6;
+        }
+
+        h1 {
+            color: darkblue;
+            font-family: 'Arial', sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #333;
+            text-align: justify;
+            font-family: 'Georgia', serif;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            margin: 30px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+    </style>
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Welcome to My Webpage</h1>
+
+    <p>This is a paragraph that explains something interesting on the webpage.</p>
+
+    <!-- Section with class selector -->
+    <div class="section">
+        <h2>Special Section</h2>
+        <p>This section has a light blue background, set with a class selector.</p>
+    </div>
+
+    <!-- Section with unique ID -->
+    <div id="uniqueElement">
+        <p>This section has a unique red border, set using an ID selector.</p>
+    </div>
+
+    <!-- Card component -->
+    <div class="card">
+        <h2>Card Title</h2>
+        <p>This is a simple card component. It contains a heading and a description, styled with padding and a border for emphasis.</p>
+    </div>
+
+    <!-- Inline CSS applied directly -->
+    <p style="color: green;">This paragraph has inline CSS applied to change its text color to green.</p>
+
+</body>
+</html>
 
 ```
 
